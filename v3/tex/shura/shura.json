@@ -1,0 +1,368 @@
+{
+  "name": "TEX Shura",
+  "vendorId": "0x04D9",
+  "productId": "0x0532",
+  "matrix": {
+    "rows": 8,
+    "cols": 11
+  },
+  "customKeycodes": [
+    {
+      "name": "SHURA_FN1",
+      "title": "Fn1 layer while held",
+      "shortName": "FN1"
+    },
+    {
+      "name": "SHURA_FN2",
+      "title": "Fn2 layer while held",
+      "shortName": "FN2"
+    },
+    {
+      "name": "SHURA_FN3",
+      "title": "Fn3 layer while held",
+      "shortName": "FN3"
+    },
+    {
+      "name": "SHURA_MIDDLE",
+      "title": "Middle button: click on tap, Fn1 layer and TrackPoint scrolling while held",
+      "shortName": "MID"
+    },
+    {
+      "name": "BLE_SLOT1",
+      "title": "Bluetooth host 1 (hold 3 s to pair)",
+      "shortName": "BLE 1"
+    },
+    {
+      "name": "BLE_SLOT2",
+      "title": "Bluetooth host 2 (hold 3 s to pair)",
+      "shortName": "BLE 2"
+    },
+    {
+      "name": "BLE_SLOT3",
+      "title": "Bluetooth host 3 (hold 3 s to pair)",
+      "shortName": "BLE 3"
+    },
+    {
+      "name": "BLE_PAIR",
+      "title": "Pair the current Bluetooth host (hold 3 s)",
+      "shortName": "BLE PR"
+    },
+    {
+      "name": "BLE_USB",
+      "title": "Send keys over USB",
+      "shortName": "BLE USB"
+    },
+    {
+      "name": "BAT_REPORT",
+      "title": "Type battery level and settings",
+      "shortName": "BAT RPT"
+    },
+    {
+      "name": "TP_SEN1",
+      "title": "TrackPoint sensitivity 1",
+      "shortName": "TP SEN1"
+    },
+    {
+      "name": "TP_SEN2",
+      "title": "TrackPoint sensitivity 2",
+      "shortName": "TP SEN2"
+    },
+    {
+      "name": "TP_SEN3",
+      "title": "TrackPoint sensitivity 3",
+      "shortName": "TP SEN3"
+    },
+    {
+      "name": "TP_SEN4",
+      "title": "TrackPoint sensitivity 4",
+      "shortName": "TP SEN4"
+    },
+    {
+      "name": "TP_SEN5",
+      "title": "TrackPoint sensitivity 5",
+      "shortName": "TP SEN5"
+    },
+    {
+      "name": "TP_SEN6",
+      "title": "TrackPoint sensitivity 6",
+      "shortName": "TP SEN6"
+    },
+    {
+      "name": "TP_SEN7",
+      "title": "TrackPoint sensitivity 7",
+      "shortName": "TP SEN7"
+    },
+    {
+      "name": "TP_SEN8",
+      "title": "TrackPoint sensitivity 8",
+      "shortName": "TP SEN8"
+    },
+    {
+      "name": "TP_SEN9",
+      "title": "TrackPoint sensitivity 9",
+      "shortName": "TP SEN9"
+    },
+    {
+      "name": "TP_UD_DOWN",
+      "title": "TrackPoint vertical speed down",
+      "shortName": "TP DOWN"
+    },
+    {
+      "name": "TP_UD_UP",
+      "title": "TrackPoint vertical speed up",
+      "shortName": "TP UP"
+    },
+    {
+      "name": "TP_UD_EVEN",
+      "title": "TrackPoint vertical speed even",
+      "shortName": "TP EVEN"
+    },
+    {
+      "name": "SLEEP1",
+      "title": "Sleep on battery after 1 min",
+      "shortName": "SLEEP1"
+    },
+    {
+      "name": "SLEEP2",
+      "title": "Sleep on battery after 2 min",
+      "shortName": "SLEEP2"
+    },
+    {
+      "name": "SLEEP3",
+      "title": "Sleep on battery after 5 min",
+      "shortName": "SLEEP3"
+    },
+    {
+      "name": "SLEEP4",
+      "title": "Sleep on battery after 10 min",
+      "shortName": "SLEEP4"
+    },
+    {
+      "name": "SLEEP5",
+      "title": "Sleep on battery after 15 min",
+      "shortName": "SLEEP5"
+    },
+    {
+      "name": "SLEEP6",
+      "title": "Sleep on battery after 30 min",
+      "shortName": "SLEEP6"
+    },
+    {
+      "name": "SLEEP7",
+      "title": "Sleep on battery after 60 min",
+      "shortName": "SLEEP7"
+    },
+    {
+      "name": "SLEEP8",
+      "title": "Sleep on battery after 120 min",
+      "shortName": "SLEEP8"
+    },
+    {
+      "name": "SLEEP9",
+      "title": "Sleep on battery after never",
+      "shortName": "SLEEP9"
+    }
+  ],
+  "layouts": {
+    "labels": [
+      "Split Left Shift",
+      "Split Spacebar",
+      "Split Right Shift",
+      "Split Backspace"
+    ],
+    "keymap": [
+      [
+        "7,0",
+        "7,1",
+        "7,2",
+        "7,3",
+        "7,4",
+        "7,5",
+        "7,6",
+        "7,7",
+        "6,0",
+        "6,1",
+        "6,2",
+        "6,3",
+        "6,4",
+        {
+          "w": 2
+        },
+        "6,6\n\n\n3,0",
+        {
+          "x": 1.5
+        },
+        "4,8\n\n\n3,1",
+        "6,6\n\n\n3,1"
+      ],
+      [
+        {
+          "w": 1.5
+        },
+        "6,7",
+        "5,0",
+        "5,1",
+        "5,2",
+        "5,3",
+        "5,4",
+        "5,5",
+        "5,6",
+        "5,7",
+        "4,0",
+        "4,1",
+        "4,2",
+        "4,3",
+        {
+          "w": 1.5
+        },
+        "4,4"
+      ],
+      [
+        {
+          "w": 1.75
+        },
+        "4,5",
+        "4,6",
+        "4,7",
+        "3,0",
+        "3,1",
+        "3,2",
+        "3,3",
+        "3,4",
+        "3,5",
+        "3,6",
+        "3,7",
+        "2,0",
+        {
+          "w": 2.25
+        },
+        "2,1"
+      ],
+      [
+        {
+          "w": 2.25
+        },
+        "2,2\n\n\n0,0",
+        "2,4",
+        "2,5",
+        "2,6",
+        "2,7",
+        "1,0",
+        "1,1",
+        "1,2",
+        "1,3",
+        "1,4",
+        "1,5",
+        {
+          "w": 2.75
+        },
+        "1,6\n\n\n2,0",
+        {
+          "x": 1.5,
+          "w": 1.25
+        },
+        "2,2\n\n\n0,1",
+        "2,3\n\n\n0,1",
+        {
+          "x": 0.75,
+          "w": 1.75
+        },
+        "1,6\n\n\n2,1",
+        "3,8\n\n\n2,1"
+      ],
+      [
+        {
+          "w": 1.75
+        },
+        "0,0\n\n\n1,0",
+        {
+          "w": 1.25
+        },
+        "0,1\n\n\n1,0",
+        {
+          "w": 1.5
+        },
+        "0,2\n\n\n1,0",
+        {
+          "w": 4.5
+        },
+        "0,4\n\n\n1,0",
+        {
+          "w": 1.25
+        },
+        "0,6\n\n\n1,0",
+        "0,7\n\n\n1,0",
+        "0,8\n\n\n1,0",
+        {
+          "w": 0.83
+        },
+        "7,9",
+        {
+          "w": 0.83
+        },
+        "4,9",
+        {
+          "w": 0.83
+        },
+        "6,9",
+        {
+          "x": 1.76,
+          "w": 1.25
+        },
+        "0,0\n\n\n1,1",
+        {
+          "w": 1.25
+        },
+        "0,1\n\n\n1,1",
+        {
+          "w": 1.25
+        },
+        "0,2\n\n\n1,1",
+        {
+          "w": 3
+        },
+        "2,8\n\n\n1,1",
+        {
+          "w": 3
+        },
+        "0,4\n\n\n1,1",
+        {
+          "w": 1.25
+        },
+        "0,6\n\n\n1,1",
+        {
+          "w": 1.25
+        },
+        "0,7\n\n\n1,1"
+      ],
+      [
+        {
+          "x": 4.875,
+          "w": 1.25
+        },
+        "7,8",
+        {
+          "w": 1.25
+        },
+        "6,8",
+        {
+          "w": 1.25
+        },
+        "5,8",
+        {
+          "x": 3.585,
+          "w": 0.83
+        },
+        "2,9",
+        {
+          "w": 0.83
+        },
+        "3,9",
+        {
+          "w": 0.83
+        },
+        "1,9"
+      ]
+    ]
+  }
+}
